@@ -1,0 +1,25 @@
+{
+  "name": "learning-jquery",
+  "version": "1.0.0",
+  "description": "Working through Packt's Learning jQuery by Chaffer and Swedberg.",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/human-inhabitant/2509.git"
+  },
+  "keywords": [
+    "jquery"
+  ],
+  "author": "human-inhabitant",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/human-inhabitant/2509/issues"
+  },
+  "homepage": "https://github.com/human-inhabitant/2509#readme"
+}
