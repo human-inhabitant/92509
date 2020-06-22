@@ -1,0 +1,38 @@
+a {
+  color: #00f;
+}
+a.mailto {
+  color: #f00;
+}
+a.pdflink {
+  color: #090;
+}
+a.mysite {
+  border-bottom: 1px dotted #00f;
+  text-decoration: none;
+}
+th {
+   text-align: left;
+ }
+
+.horizontal {
+  float: left;
+  list-style: none;
+  margin: 10px;
+}
+.sub-level {
+  background: #ffc;
+}
+.odd {
+  background-color: #ffc;
+}
+.even {
+  background-color: #cef;
+}
+.highlight {
+  color: #f00;
+  font-weight: bold;
+}
+.table-heading {
+  background-color: #ff0;
+}
