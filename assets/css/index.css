@@ -25,3 +25,14 @@ h3 {
   font-size: 1.2em;
   margin: 10px 2em;
 }
+
+.quote {
+  font-style: italic;
+  padding: 4px 0 0 20px;
+}
+.quote span {
+  display: block;
+}
+.quote span:last-child {
+  text-align: right;
+}
