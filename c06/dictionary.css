@@ -1,0 +1,71 @@
+#dictionary {
+  float: left;
+  width: 500px;
+}
+#loading {
+  background-color: #eee;
+  border: 1px #000 solid;
+  display: none;
+  margin: 100px 0 0 200px;
+  padding: 20px;
+  position: absolute;
+}
+#term {
+  width: 120px;
+}
+
+.button {
+  background-color: #fff;
+  border-top: 3px solid #888;
+  border-right: 3px solid #444;
+  border-bottom: 3px solid #444;
+  border-left: 3px solid #888;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+}
+.entry {
+  padding: 1em 0;
+  border-bottom: 1px #555 solid;
+}
+.entry .term {
+  display: inline;
+  font-weight: bold;
+}
+.entry .part {
+  padding: 0 1em;
+  display: inline;
+  font-style: italic;
+}
+.entry .definition {
+  padding: .5em;
+}
+.entry .definition .quote {
+  margin: .5em 2em;
+  padding: 0 1em;
+  color: #333;
+  border-left: 2px #aaa solid;
+}
+.entry .definition .quote .quote-author {
+  font-weight: bold;
+  margin-left: 20em;
+}
+.highlighted {
+  background-color: #dfd;
+  font-style: italic;
+}
+.letters {
+  float: left;
+  width: 150px;
+}
+.letter {
+  margin: 10px;
+}
+.letter h3 {
+  font-weight: bold;
+}
+.letter ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 1em;
+}
