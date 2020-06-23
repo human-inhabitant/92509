@@ -1,0 +1,49 @@
+span.footnote {
+  display: block;
+  font-family: 'Source Code Pro Light', monospace;
+  font-style: italic;
+  margin: 1em 0;
+}
+
+#f-title {
+  font-size: 1.5em;
+}
+#excerpt {
+  font-style: italic;
+}
+#footer {
+  margin-top: 1em;
+  border-top: 1px solid #dedede;
+}
+#notes {
+  margin-top: 1em;
+  border-top: 1px solid #dedede;
+}
+#notes li {
+  margin: 1em 0;
+}
+
+.chapter {
+  width: 42em;
+}
+.chapter span.footnote {
+  display: inline;
+}
+.pulled {
+  background: url('../assets/img/pq-bottom.jpg') no-repeat left bottom;
+  display: block;
+  font: italic 1.1em 'Source Code Pro Light', monospace;
+  padding: 0 10px 24px 10px;
+  position: relative;
+  width: 140px;
+}
+.pulled-wrapper {
+  background: url('../assets/img/pq-top.jpg') no-repeat left top;
+  padding-top: 18px;
+  position: absolute;
+  right: -180px;
+  width: 160px;
+}
+.text-reference {
+  font-weight: bold;
+}
