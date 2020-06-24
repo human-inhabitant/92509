@@ -1,0 +1,158 @@
+form {
+  clear: both;
+}
+form ol {
+  margin-left: .5em;
+  margin-right: 1.5em;
+  list-style-type: none;
+}
+form ol ul,
+form ol ol {
+  margin-top: .5em;
+  margin-left: 2.5em;
+  list-style-type: none;
+}
+input, textarea {
+  margin-top: .25em;
+}
+textarea {
+  width: 300px;
+  height: 60px;
+}
+label input {
+  margin-bottom: 0;
+}
+div.legend {
+  display: block;
+  width: 100%;
+}
+td.item {
+  width: 100%;
+}
+td.quantity input {
+  width: 30px;
+}
+td.delete-item {
+  text-align: center;
+}
+tr.total {
+  font-weight: bold;
+}
+tr.actions {
+  text-align: right;
+}
+td.delete-item {
+  text-align: center;
+}
+tr.total {
+  font-weight: bold;
+}
+tr.actions {
+  text-align: right;
+}
+
+#content form li {
+  float: left;
+  clear: left;
+  width: 100%;
+  margin-left: 0;
+}
+#content fieldset {
+  margin: 1em 0;
+  padding: 0 0 1em 0;
+}
+#content fieldset h3,
+#shipping h3 {
+  background-color: #15b;
+  color: #fff;
+  margin: 2px 2px .5em 2px;
+  padding: 3px 8px;
+}
+#content label {
+  float: left;
+  margin: .5em;
+  text-align: right;
+  width: 9em;
+}
+#content ol ul label,
+#content ol ol label {
+  text-align: left;
+}
+#content .discover label {
+  width: auto;
+}
+#content .warning {
+  background: #ffc;
+  color: #900;
+  padding: 5px;
+}
+#search {
+  margin-bottom: 20px;
+}
+#search-text {
+  width: 16em;
+}
+#search label {
+  display: block;
+}
+#sidebar .autocomplete {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #888;
+  width: 16em;
+  list-style-type: none;
+  z-index: 52;
+}
+#sidebar .autocomplete li {
+  padding: 2px;
+  margin: 0;
+}
+#sidebar .autocomplete li.selected {
+  background: #008;
+  color: #fff;
+}
+#content #cart {
+  border-collapse: collapse;
+}
+#content #cart tfoot {
+  border-top: 2px solid #000;
+  white-space: nowrap;
+}
+#content #cart tfoot tr {
+  border-bottom: 1px solid #ccc;
+}
+#cart th.price, td.price,
+#cart th.cost, td.cost,
+td.value {
+  text-align: right;
+}
+#shipping {
+  border: 1px solid #000;
+  padding: 2px .25em;
+  float: right;
+  margin-bottom: 1em;
+}
+#shipping-name {
+  margin-left: 3px;
+}
+#shipping-name a {
+  background: url('../img/icons/pencil_go.png') no-repeat 0 50%;
+  padding: 6px 0 0 20px;
+}
+
+.field-keys {
+  border-top: 1px solid #15b;
+  border-bottom: 1px solid #15b;
+  background: #e3e3e3;
+  padding: 3px;
+  margin: .5em 10px;
+}
+.hidden {
+  display: none;
+}
+.placeholder {
+  color: #999;
+}
+.req-label {
+  font-weight: bold;
+}

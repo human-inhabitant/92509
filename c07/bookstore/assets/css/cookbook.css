@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fff;
+  color: #333;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 62.5%;
+}
+p, h1, h2, h3, h4, ol, ul, dl  {
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+li {
+  margin-left: 1.2em;
+}
+
+#wrapper {
+  font-size: 1.2em;
+}
+#branding {
+  height: 100px;
+  padding: 15px 10px 5px;
+  border-bottom: 1px solid #ccc;
+  background: #ffd;
+}
+#container {
+  float: left;
+  margin-bottom: 2em;
+  width: 100%;
+}
+#content {
+  margin: 0 21em 0 16em;
+}
+#primary-nav {
+  background: #efd;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 90px;
+  width: 100%;
+}
+#secondary-nav {
+  background: #efd;
+  float: left;
+  margin-left: -100%;
+  width: 15em;
+}
+#sidebar {
+  background: #efd;
+  float: left;
+  margin-left: -20em;
+  width: 20em;
+}
+#footer {
+  background: #000;
+  clear: left;
+  color: #fff;
+  padding: 4px 0;
+  text-align: center;
+  width: 100%;
+}
+#content *,
+#secondary-nav *,
+#sidebar * {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#content * *,
+#secondary-nav * *,
+#sidebar * * {
+  padding: 0;
+}
+#primary-nav ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+#primary-nav li {
+  float: left;
+  margin-left: 0;
+  padding: 5px;
+}
+#secondary-nav h2,
+#sidebar h2 {
+  border-bottom: 1px dotted #ccc;
+}
+#secondary-nav h3 {
+  font-size: 1em;
+}
+#secondary-nav h3 a {
+  background: url('../img/icons/cart.png') no-repeat 0 50%;
+  color: #15b;
+  padding-left: 20px;
+  text-decoration: none;
+}
+#secondary-nav h3 a.active {
+  color: #000;
+  cursor: text;
+}
+#secondary-nav h3 span {
+  border-bottom: 1px dotted #15b;
+}
+#secondary-nav li {
+  margin-bottom: .5em;
+}
+#footer a {
+  color: #ff0;
+}
+
+.clickable {
+  cursor: pointer;
+}
+.hover {
+  text-decoration: underline;
+}
+
+.clear-after:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clear-after {
+  display: inline-block;
+}
+* html .clear-after {
+  height: 1%;
+}
+.clear-after {
+  display: block;
+}
+
