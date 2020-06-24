@@ -72,7 +72,7 @@
       </div>
     </div> <!-- end wrapper -->
 
-    <script src="../../../assets/js/jquery-1.3.2.min.js"></script>
+    <script src="../../../assets/js/jquery.js"></script>
     <script src="../assets/js/cookbook.js"></script>
     <script src="../assets/js/forms.js"></script>
     <script src="../assets/js/rotators.js"></script>

@@ -73,12 +73,6 @@ $( document ).ready( () => {
             }
             html += '</div>';
           }
-        /*
-
-
-
-
-        */
           html += '</div>';
         html += '</div>';
         $dictionary.append( html );
@@ -97,7 +91,7 @@ $( document ).ready( () => {
 
   $( '#letter-f form' ).submit( function() {
     $dictionary.empty();
-    const term = $( 'input[name=term]' ).val();
+    const term = $( '#term' ).val();
     $.post( '../assets/data/f.php', { 'term': term }, function( data ) {
       $dictionary.html( data );
     });

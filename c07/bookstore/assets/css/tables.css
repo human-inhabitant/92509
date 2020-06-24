@@ -25,6 +25,7 @@ th.sorted-desc {
 #content th,
 #content td {
   padding: 3px 6px;
+  vertical-align: top;
 }
 #content th {
   text-align: left;
@@ -32,6 +33,7 @@ th.sorted-desc {
 }
 #content thead th {
   background-color: #15b;
+  white-space: nowrap;
 }
 #content .sortable thead th,
 #content .filterable thead th {
