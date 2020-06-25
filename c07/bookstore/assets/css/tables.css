@@ -55,6 +55,9 @@ th.sorted-desc {
 #content .filterable thead th {
   padding-left: 6px;
 }
+#content .pager {
+  margin-bottom: 4px;
+}
 #content .page-number,
 #content .filter {
   padding: .2em;
