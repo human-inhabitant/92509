@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/css/cookbook.css">
+    <link rel="stylesheet" href="../assets/css/forms.css">
+    <link rel="stylesheet" href="../assets/css/rotators.css">
+    <link rel="stylesheet" href="../assets/css/tables.css">
+    <title></title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="branding">
+        <h1><a href="../index.html">Learning jQuery</a></h1>
+      </div>
+      <div id="container">
+        <div id="content">
+          <h2>Contact</h2>
+          <p>
+            Please use the form below to send your comments or questions. Also, let us know how you would like us to
+            reach you and how you came upon our site.
+          </p>
+          <form id="contact" action="index.html" method="get">
+            <fieldset class="clear-after">
+              <legend>Personal Info</legend>
+              <ol>
+                <li>
+                  <label for="first-name">First Name</label>
+                  <input class="required" type="text" name="first-name" id="first-name" />
+                  <span>(required)</span>
+                </li>
+                <li>
+                  <label for="last-name">Last Name</label>
+                  <input class="required" type="text" name="last-name" id="last-name" />
+                  <span>(required)</span>
+                </li>
+                <li>
+                  How would you like to be contacted? (choose at least one method)
+                  <ul>
+                    <li>
+                      <label>
+                        <input type="checkbox" name="by-contact-type" value="E-mail" id="by-email" />
+                        by E-Mail
+                      </label>
+                      <input class="conditional" type="text" name="email" id="email" />
+                      <span>(required when corresponding checkbox checked)</span>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" name="by-contact-type" value="Phone" id="by-phone" />
+                        by Phone
+                      </label>
+                      <input class="conditional" type="text" name="phone" id="phone" />
+                      <span>(required when corresponding checkbox checked)</span>
+                    </li>
+                    <li>
+                      <label>
+                        <input type="checkbox" name="by-contact-type" value="Fax" id="by-fax" />
+                        by Fax
+                      </label>
+                      <input class="conditional" type="text" name="fax" id="fax" />
+                      <span>(required when corresponding checkbox checked)</span>
+                    </li>
+                  </ul>
+                </li>
+              </ol>
+            </fieldset>
+            <fieldset class="clear-after">
+              <legend>Message</legend>
+              <ol>
+                <li>
+                  <label for="subject">Subject</label>
+                  <input type="text" name="subject" id="subject" />
+                </li>
+                <li>
+                  <label for="comment">Body</label>
+                  <textarea id="comment"></textarea>
+                </li>
+              </ol>
+            </fieldset>
+            <fieldset class="clear-after">
+              <legend>Miscellaneous</legend>
+              <ol>
+                <li class="discover">How did you discover us? (Check all that apply)
+                  <ul>
+                    <li><label><input type="checkbox" name="discover" value="magazine" id="magazine" /> Magazine</label></li>
+                    <li><label><input type="checkbox" name="discover" value="website" id="website" /> Website</label></li>
+                    <li><label><input type="checkbox" name="discover" value="tv" id="tv" /> Television</label></li>
+                    <li><label><input type="checkbox" name="discover" value="movie" id="movie" /> Movie</label></li>
+                    <li><label><input type="checkbox" name="discover" value="school" id="school" /> School</label></li>
+                    <li><label><input type="checkbox" name="discover" value="mom" id="mom" /> Mom</label></li>
+                    <li><label><input type="checkbox" name="discover" value="billboard" id="billboard" /> Billboard</label></li>
+                    <li><label><input type="checkbox" name="discover" value="graffiti" id="graffiti" /> Graffiti</label></li>
+                    <li><label><input type="checkbox" name="discover" value="detritus" id="detritus" /> Detritus</label></li>
+                    <li><label><input type="checkbox" name="discover" value="hate-mail" id="hate-mail" /> Hate Mail</label></li>
+                  </ul>
+                </li>
+              </ol>
+            </fieldset>
+            <input type="submit" value="Send" id="send" />
+          </form>
+        </div> <!-- end content -->
+      </div> <!-- end container -->
+      <div id="primary-nav">
+        <ul>
+          <li><a href="../authors/">Authors</a></li>
+          <li><a href="../books/">Books</a></li>
+          <li><a href="../news/">News</a></li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div id="secondary-nav">
+        <h3><a href="../cart/">Your Cart</a></h3>
+        <ul>
+          <li>Lorem ipsum dolor</li>
+          <li>Lorem ipsum dolor</li>
+          <li>Lorem ipsum dolor</li>
+          <li>Lorem ipsum dolor</li>
+          <li>Lorem ipsum dolor</li>
+          <li>Lorem ipsum dolor</li>
+          <li>Lorem ipsum dolor</li>
+        </ul>
+      </div>
+      <div id="sidebar">
+        <h2>Sidebar</h2>
+        <form id="search" action="../search/index.php" method="post" accept-charset="utf-8">
+          <label for="search-text">search the site</label>
+          <input type="text" name="search-text" id="search-text" />
+        </form>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam adipiscing, risus quis fringilla venenatis, diam
+          nisi adipiscing magna, sit amet rutrum risus nunc sit amet odio. Praesent ullamcorper. Donec sit amet ipsum.
+          Nam consequat rhoncus lacus. Pellentesque libero erat, elementum a, mattis in, molestie id, magna. Integer sed
+          libero vitae lacus elementum egestas. Nullam massa magna, gravida sed, porta vel, ultricies at, purus. Maecenas
+          turpis. Vivamus ante risus, eleifend sed, scelerisque at, lacinia vitae, nunc. Vestibulum ut arcu. Cras ut
+          magna. Pellentesque eleifend commodo est. Sed vitae odio eget ipsum tristique hendrerit. Cras elementum turpis
+          ut sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sed erat
+          at velit bibendum varius. Sed venenatis sagittis lectus. Cras ligula felis, ultrices et, imperdiet et, laoreet
+          sed, odio. Morbi nunc tellus, hendrerit in, aliquet eget, rutrum a, magna. Nunc nunc.
+        </p>
+      </div> <!-- end sidebar -->
+      <div id="footer">
+        This is the footer.
+      </div>
+    </div> <!-- end wrapper -->
+
+    <script src="../../../assets/js/jquery.js"></script>
+    <script src="../assets/js/cookbook.js"></script>
+    <script src="../assets/js/forms.js"></script>
+    <script src="../assets/js/rotators.js"></script>
+    <script src="../assets/js/tables.js"></script>
+  </body>
+</html>
