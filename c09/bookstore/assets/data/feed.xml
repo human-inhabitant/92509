@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"
+
+?><?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/itemcontent.css" type="text/css" media
+
+="screen"?><!-- generator="wordpress/2.0" --><rss xmlns:content="http://purl.org/rss/1.0/modules/content
+
+/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" version
+
+="2.0">
+
+<channel>
+
+	<title>jQuery Blog</title>
+
+	<link>http://jquery.com/blog</link>
+
+	<description>New Wave Javascript.</description>
+
+	<pubDate>Tue, 03 Apr 2007 14:42:46 +0000</pubDate>
+
+	<generator>http://wordpress.org/?v=2.0</generator>
+
+	<language>en</language>
+
+			<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com
+
+/jquery" type="application/rss+xml" /><item>
+
+		<title>Google Groups and Amazon S3</title>
+
+		<link>http://jquery.com/blog/2007/04/02/google-groups-and-amazon-s3/</link>
+
+		<comments>http://jquery.com/blog/2007/04/02/google-groups-and-amazon-s3/#comments</comments>
+
+		<pubDate>Mon, 02 Apr 2007 05:15:47 +0000</pubDate>
+
+		<dc:creator>John Resig</dc:creator>
+
+		
+
+	<category>Uncategorized</category>
+
+		<guid isPermaLink="false">http://jquery.com/blog/2007/04/02/google-groups-and-amazon-s3/</guid>
+
+		<description><![CDATA[Two new improvements have just gone into place to help improve the quality of
+
+ the jQuery site.
+
+The jQuery Mailing List is now hosted with Google Groups.
+
+This move is going to help provide huge increases in the overall speed, and quality, of the jQuery mailing
+
+ list. At the time of the move we were sending out, [...]]]></description>
+
+			<content:encoded><![CDATA[<p>Two new improvements have just gone into place to help improve the quality
+
+ of the jQuery site.</p>
+
+<p><b>The <a href="http://groups.google.com/group/jquery-en">jQuery Mailing List</a> is now hosted with
+
+ <a href="http://groups.google.com/">Google Groups</a>.</b></p>
+
+<p>This move is going to help provide huge increases in the overall speed, and quality, of the jQuery
+
+ mailing list. At the time of the move we were sending out, approximately, 4.5m emails per month. Unfortunately
+
+, the list was prone to folding under the high server load; and the amount of effort required to keep
+
+ it performing nicely was simply too much to ignore.</p>
+
+<p>The best feature of the <a href="http://groups.google.com/group/jquery-en">new mailing list</a> (besides
+
+ the increased reliability) is the addition of Google Groups&#8217; wonderful web-based interface. I
+
+ hope that everyone who&#8217;s asked for a forum can now be content knowing that they can browse the
+
+ jQuery list, and easily reply to posts, without ever having to subscribe to incoming messages.</p>
+
+<p><b>Note:</b> If you were a member of the old mailing list, you should be completely moved to the new
+
+ one. All old messages and users were moved over, and everything should be intact.</p>
+
+<p>Complete instructions on how to use the main discussion mailing list, and all the other jQuery mailing
+
+ lists, can be found on here: <a href="http://docs.jquery.com/Discussion">jQuery Mailing Lists</a>.<
+
+/p>
+
+<p><b>All code is now hosted with <a href="http://aws.amazon.com/s3">Amazon S3</a>.</b></p>
+
+<p>As a project, we&#8217;ve never discouraged first time users from using the <a href="http://docs.jquery
+
+.com/Downloading_jQuery">jQuery Source Code</a> straight from their personal site; it helps to get new
+
+ users started with development, without having to worry about keeping their code up to date.</p>
+
+<p>Needless to say, the number of users who&#8217;ve directly used the jQuery source directly from the
+
+ jQuery site has increased dramatically in recent months (with some large-scale sites directly pulling
+
+ from jQuery.com). This still isn&#8217;t a huge problem, but it&#8217;s something that the web server
+
+ hosting jQuery.com shouldn&#8217;t have to worry about. For that reason, all jQuery source code has
+
+ been moved to Amazon S3, for example: <a href="http://code.jquery.com/jquery-latest.js">http://code
+
+.jquery.com/jquery-latest.js</a>.</p>
+
+<p>The jQuery site has been using the code directly from Amazon S3 for over two weeks now and I&#8217
+
+;ve been very pleased with the results. The number of files requested has dropped dramatically, giving
+
+ the web server more time to serve the normal jQuery web pages.</p>
+
+<p><b>Note:</b> All old requests to http://jquery.com/src/&#8230; are being redirected to the http:/
+
+/code.jquery.com/&#8230; sub-domain (which is managed by Amazon).</p>
+
+<p>A nice thing about this move is that we can soon start providing dedicated hosting for plugins. Once
+
+ we figure out the logistics of the plugin repository (which is currently under development), we&#8217
+
+;ll be sure to make that a priority.</p>
+
+<p>Additionally, static jQuery.com files (like stylesheets, images, and JavaScript files) are being hosted
+
+ directly from Amazon S3 too (static.jquery.com). This is also helping to alleviate any strain on the
+
+ server that may be present.</p>
+
+<p>As always, if you get any errors on the jQuery site, please be sure to send a message to the <a href
+
+="http://groups.google.com/group/jquery-en">mailing list</a>, where we can find it and help to solve
+
+ the problem.</p>
+
+<p><b>1.1.3 News</b></p>
+
+<p>All of these site issues have delayed jQuery 1.1.3 slightly, but now that they&#8217;re out of the
+
+ way we should be back on track for having a 1.1.3 alpha out by the end of this week. This update is
+
+ going to include significant updates to the performance of jQuery animations and huge speed increases
+
+ to the selector engine; as well as fixing over 20 outstanding bugs. We hope to have an update concerning
+
+ all of this, shortly.
+
+</p>
+
+]]></content:encoded>
+
+			<wfw:commentRSS>http://jquery.com/blog/2007/04/02/google-groups-and-amazon-s3/feed/</wfw:commentRSS
+
+>
+
+		</item>
+
+		<item>
+
+		<title>jQuery Book Coming Soon</title>
+
+		<link>http://jquery.com/blog/2007/03/26/jquery-book-coming-soon/</link>
+
+		<comments>http://jquery.com/blog/2007/03/26/jquery-book-coming-soon/#comments</comments>
+
+		<pubDate>Mon, 26 Mar 2007 11:42:14 +0000</pubDate>
+
+		<dc:creator>Karl Swedberg</dc:creator>
+
+		
+
+	<category>Uncategorized</category>
+
+		<guid isPermaLink="false">http://jquery.com/blog/2007/03/26/jquery-book-coming-soon/</guid>
+
+		<description><![CDATA[For those of you who have been following the jQuery blog the past couple months
+
+, you may have noticed John Resig&#8217;s mention of a secret: &#8220;There&#8217;s a jQuery book in
+
+ the works!&#8221; Well, I am thrilled to be able to leak a little more information about that secret
+
+.
+
+For the past few months my friend Jonathan [...]]]></description>
+
+			<content:encoded><![CDATA[<p>For those of you who have been following the jQuery blog the past couple
+
+ months, you may have noticed <a href="http://jquery.com/blog/2007/01/14/jquery-birthday-11-new-site-new-docs
+
+/">John Resig&#8217;s mention of a secret</a>: &#8220;There&#8217;s a jQuery book in the works!&#8221
+
+; Well, I am thrilled to be able to leak a little more information about that secret.</p>
+
+<p>For the past few months my friend Jonathan Chaffer and I have been hard at work on the book, and everything
+
+ is progressing well. Our writing is being supported by a stellar group of technical reviewers, some
+
+ of whom are members of the jQuery development team. We&#8217;ll be able to divulge details about the
+
+ book&#8217;s contents soon. The publisher is readying a web page for it, so as soon as that is completed
+
+, we can give you the full scoop.</p>
+
+<h2>About the Authors</h2>
+
+<p>Jonathan Chaffer is a long-time Drupal contributor and creator of Drupal&#8217;s CCK. He also likes
+
+ to make up bizarre band names and album titles, based on snippets of conversations he overhears, at
+
+ <a href="http://www.tweaktheviking.com/">Tweak the Viking</a>. Karl Swedberg (that&#8217;s me) is a
+
+ <a href="http://jquery.com/blog/2006/12/18/meet-the-people-behind-jquery/">jQuery zealot</a> who runs
+
+ the <a href="http://www.learningjquery.com/">Learning jQuery</a> blog and still tries to keep a bit
+
+ of his former career as an English teacher alive at his other blog, <a href="http://www.englishrules
+
+.com/">English Rules</a>. Jonathan and Karl work together at <a href="http://www.structureinteractive
+
+.com/">Structure Interactive</a> in Grand Rapids, Michigan, where they have been given a lot of freedom
+
+ to use jQuery, as well as standards-based, semantic HTML &amp; CSS, in many of their projects.
+
+</p>
+
+]]></content:encoded>
+
+			<wfw:commentRSS>http://jquery.com/blog/2007/03/26/jquery-book-coming-soon/feed/</wfw:commentRSS>
+
+		</item>
+
+		<item>
+
+		<title>SXSWi jQuery Meetup</title>
+
+		<link>http://jquery.com/blog/2007/03/11/sxswi-jquery-meetup/</link>
+
+		<comments>http://jquery.com/blog/2007/03/11/sxswi-jquery-meetup/#comments</comments>
+
+		<pubDate>Sun, 11 Mar 2007 06:49:09 +0000</pubDate>
+
+		<dc:creator>John Resig</dc:creator>
+
+		
+
+	<category>Uncategorized</category>
+
+		<guid isPermaLink="false">http://jquery.com/blog/2007/03/11/sxswi-jquery-meetup/</guid>
+
+		<description><![CDATA[Right now the annual SXSWi conference is happening in beautiful, sunny, Austin
+
+, Texas. Interestingly enough, there&#8217;s a ton of jQuery users here (as am I). I&#8217;ve already
+
+ had the opportunity to talk with a number of you, but we should really do a proper get together.
+
+As proposed by Luke Lutman, on the mailing list, and [...]]]></description>
+
+			<content:encoded><![CDATA[<p>Right now the annual SXSWi conference is happening in beautiful, sunny
+
+, Austin, Texas. Interestingly enough, there&#8217;s a ton of jQuery users here (as am I). I&#8217;ve
+
+ already had the opportunity to talk with a number of you, but we should really do a proper get together
+
+.</p>
+
+<p>As proposed by Luke Lutman, on the mailing list, and Cody Lindley (of Thickbox fame) - let&#8217;s
+
+ do a meetup! Let&#8217;s say Monday (Mar 12th) at lunch. Meet at the main doors facing the Courtyard
+
+ Hotel. If you have any troubles, feel free to give me a call at 585-615-5287 and I&#8217;ll direct you
+
+ in.</p>
+
+<p>I&#8217;m looking forward to meeting everyone!</p>
+
+<p><b>See Also:</b> <a href="http://upcoming.org/event/162778/">http://upcoming.org/event/162778/</a
+
+></p>
+
+<p><b>Update:</b> Just to clarify, this is at 12:30pm (after the 11:30am-12:30pm session ends). And the
+
+ doors are at the corner of Trinity and and Fourth St. I&#8217;ll be wearing a bright red Atari T-Shirt
+
+, so I should be easy to spot.
+
+</p>
+
+]]></content:encoded>
+
+			<wfw:commentRSS>http://jquery.com/blog/2007/03/11/sxswi-jquery-meetup/feed/</wfw:commentRSS>
+
+		</item>
+
+		<item>
+
+		<title>jQuery 1.1.2</title>
+
+		<link>http://jquery.com/blog/2007/02/27/jquery-112/</link>
+
+		<comments>http://jquery.com/blog/2007/02/27/jquery-112/#comments</comments>
+
+		<pubDate>Wed, 28 Feb 2007 04:28:34 +0000</pubDate>
+
+		<dc:creator>John Resig</dc:creator>
+
+		
+
+	<category>Uncategorized</category>
+
+		<guid isPermaLink="false">http://jquery.com/blog/2007/02/27/jquery-112/</guid>
+
+		<description><![CDATA[Translations: Italiano, français
+
+The release of jQuery 1.1.2 is upon us! This is a another bug fix release. We&#8217;ve fixed a number
+
+ of outstanding issues. The fixes have been tested well, so there shouldn&#8217;t be any regressions
+
+ (knock on wood). The most noticeable issue that was resolved was related to animation flickers when
+
+ doing a slideDown.
+
+It [...]]]></description>
+
+			<content:encoded><![CDATA[<p><b>Translations:</b> <a href="http://www.jquery.info/spip.php?article43"
+
+>Italiano</a>, <a href="http://www.jquery.info/spip.php?article42">français</a></p>
+
+<p>The release of jQuery 1.1.2 is upon us! This is a another bug fix release. We&#8217;ve fixed a number
+
+ of outstanding issues. The fixes have been tested well, so there shouldn&#8217;t be any regressions
+
+ (knock on wood). The most noticeable issue that was resolved was related to animation flickers when
+
+ doing a slideDown.</p>
+
+<p><b>It is highly recommended that you upgrade.</b></p>
+
+<p>As always, if you have any questions or concerns with new release, please feel free to discuss it
+
+ on the <a href="http://docs.jquery.com/Discussion#Mailing_Lists">jQuery Mailing List</a>. If you think
+
+ you&#8217;ve spotted a bug, please <a href="http://dev.jquery.com/newticket">add it to the bug tracker
+
+</a>.</p>
+
+<h2>Download</h2>
+
+<ul>
+
+<li><b><a href="http://jquery.com/src/jquery-1.1.2.pack.js">Compressed JavaScript</a></b> (Recommended
+
+ Download!)</li>
+
+<li><a href="http://jquery.com/src/jquery-1.1.2.js">Uncompressed JavaScript</a></li>
+
+<li><a href="http://jquery.com/src/jquery-1.1.2.release.zip">Full Release (jQuery, Test Suite, Documentation
+
+)</a></li>
+
+<li><a href="http://jquery.com/src/jquery-1.1.2.build.zip">Build Files (Compile your own version of jQuery
+
+ 1.1.2)</a></li>
+
+</ul>
+
+<h2>Bug Fixes</h2>
+
+<p>The most important bug fixes, relevant to this release, are as follows:</p>
+
+<ol>
+
+<li>Change: Event handlers (like <code>element.onclick</code>) are now removed when no more functions
+
+ are bound to the event.</li>
+
+<li>Fixed: DOM Manipulations for form elements.</li>
+
+<li>Fixed: <code>jQuery.isFunction</code> to return false on nodes.</li>
+
+<li>Fixed: <code>jQuery.className.has</code>, escaping regex characters in <code>className</code> (for
+
+ metadata)</li>
+
+<li>Fixed: an issue in IE where an event on a cloned element is fired during a <code>.clone()</code>
+
+ inside of an event handler.</li>
+
+<li>Fixed: IE ID selectors selecting by the name attribute.</li>
+
+<li>Changed: Events are now internally stored in <code>elem.$events</code> rather than <code>elem.events
+
+</code> (due to a nasty bug relating to DOM 0 expandos).</li>
+
+<li>Changed: <code>.attr('href')</code> is now consistent in all browsers.</li>
+
+<li>Changed: <code>@href</code> is now consistent in all browsers.</li>
+
+<li>Fixed: the <code>slideDown</code> flickering bug.</li>
+
+<li>Fixed: Having a <code>\r</code> endline in <code>$("...")</code> caused a never-ending loop.</li
+
+>
+
+<li>Fixed: IE6 AJAX memory leak</li>
+
+<li>Fixed: bug in pushStack, reporting an element at <code>[0]</code> in a jQuery object with length
+
+ 0</li>
+
+</ol>
+
+<h2>Documentation</h2>
+
+<p>Additionally, the documentation has been back-ported out of the wiki and into the API docs. All of
+
+ the documentation resources have been updated in respect to the 1.1.2 release.</p>
+
+<ul>
+
+<li>Official Documentation:<br />
+
+<a href="http://docs.jquery.com/">http://docs.jquery.com/</a></li>
+
+<li>API Browsers:<br />
+
+<a href="http://jquery.bassistance.de/api-browser/">http://jquery.bassistance.de/api-browser/</a><br
+
+ />
+
+<a href="http://jquery.com/api/">http://jquery.com/api/</a></li>
+
+</ul>
+
+<h3>Leading up to jQuery 1.1.3&#8230;</h3>
+
+<p>This may seem like a fairly light bug fix release, but we&#8217;re gearing up to the release of jQuery
+
+ 1.1.3. A number of outstanding bugs (about 5-10) require significant changes to how jQuery works, internally
+
+ (specifically, in relation to events and animations). We want to make <b>100% certain</b> that there
+
+ are no regressions made to these important pieces of code.</p>
+
+<p>We have patches nearly ready (animation is ready, events is in the works) - and when that&#8217;s
+
+ the case, we&#8217;re going to release a preview of the 1.1.3 code so that everyone can test against
+
+ it.</p>
+
+<p><b>Update:</b> This has also been announced on <a href="http://www.learningjquery.com/">Learning jQuery
+
+</a>: <a href="http://www.learningjquery.com/2007/02/jquery-112-released">jQuery 1.1.2 Released</a><
+
+/p>
+
+<p><big><b>Update:</b></big> A nasty glitch in Safari was found and fixed. We just re-tagged jQuery 
+
+(it&#8217;s now SVN rev 1465 instead of 1460 - this includes a fix for the bug, and it temporarily disables
+
+ the test suite in Safari) and all the jQuery 1.1.2 downloads should be updated, as well.
+
+</p>
+
+]]></content:encoded>
+
+			<wfw:commentRSS>http://jquery.com/blog/2007/02/27/jquery-112/feed/</wfw:commentRSS>
+
+		</item>
+
+		<item>
+
+		<title>jQuery is OpenAjax Compliant</title>
+
+		<link>http://jquery.com/blog/2007/02/21/jquery-is-openajax-compliant/</link>
+
+		<comments>http://jquery.com/blog/2007/02/21/jquery-is-openajax-compliant/#comments</comments>
+
+		<pubDate>Wed, 21 Feb 2007 05:53:33 +0000</pubDate>
+
+		<dc:creator>John Resig</dc:creator>
+
+		
+
+	<category>Uncategorized</category>
+
+		<guid isPermaLink="false">http://jquery.com/blog/2007/02/21/jquery-is-openajax-compliant/</guid>
+
+		<description><![CDATA[
+
+A new initiative has been forming, over the recent months, in an attempt to standardize the different
+
+ Ajax and JavaScript codebases that exist. A number of corporate entities have come together to draft
+
+ the new OpenAjax standard (including IBM, Adobe, Opera, and Mozilla).
+
+Today we&#8217;re announcing a new plugin that you can use to make jQuery [...]]]></description>
+
+			<content:encoded><![CDATA[<p><img id="image139" src="http://jquery.com/blog/wp-content/uploads/2007
+
+/02/openajax.png" alt="OpenAjax Alliance" style="float:right;" /></p>
+
+<p>A <a href="http://www.openajax.org/">new initiative</a> has been forming, over the recent months,
+
+ in an attempt to standardize the different Ajax and JavaScript codebases that exist. A number of corporate
+
+ entities have come together to draft the new <a href="http://www.openajax.org/">OpenAjax</a> standard
+
+ (including IBM, Adobe, Opera, and Mozilla).</p>
+
+<p>Today we&#8217;re announcing a <a href="http://dev.jquery.com/browser/trunk/plugins/openajax/lib/jQuery
+
+/OpenAjax.js">new plugin</a> that you can use to make jQuery OpenAjax compliant. By doing this, jQuery
+
+ is becoming one of the first projects that has made its codebase compliant with the new standard.</p
+
+>
+
+<p>Currently, the <a href="http://www.openajax.org/member/wiki/InteropFest_2007_March">requirements for
+
+ compliance</a> are, relatively, simple - but still quite important. The relevant rules can be summarized
+
+ as such:</p>
+
+<ul>
+
+<li>All libraries must register themselves (their name, version, and namespace) with the main OpenAjax
+
+ library.</li>
+
+<li>All libraries must register any global variables that they use  (in the case of jQuery it&#8217;s
+
+ &#8216;jQuery&#8217;, and optionally &#8216;$&#8217; - it defaults to just including &#8216;jQuery&
+
+#8217;).</li>
+
+<li>Any attempt to register &#8220;onload&#8221; or &#8220;onunload&#8221; handlers must go through the
+
+ OpenAjax library. In the case of jQuery, if you do: $(window).load(function), and OpenAjax is included
+
+, jQuery will defer to OpenAjax&#8217;s solution.</li>
+
+<li>Libraries must not disrupt the ability of other libraries to traverse the HTML DOM document.</li
+
+>
+
+</ul>
+
+<p>You can view <a href="http://john.jquery.com/plugins/openajax/tests/">jQuery&#8217;s compliance results
+
+</a>, to verify that it does, indeed, past the test suite.</p>
+
+<p>If you wish to use jQuery in conjunction with other OpenAjax-capable libraries, the process is rather
+
+ straight forward.</p>
+
+<p><b>Step 1</b> Download a copy of the <a href="http://dev.jquery.com/browser/trunk/plugins/openajax
+
+/lib/jQuery/OpenAjax.js?format=txt">jQuery OpenAjax plugin</a> to your server.</p>
+
+<p><b>Step 2</b> Include the library in your site, just after you include jQuery.
+
+<pre>&lt;script src="<a href="http://jquery.com/src/jquery-latest.js">jquery.js</a>&#8220;>&lt;/script
+
+>
+
+&lt;script src=&#8221;<a href="http://dev.jquery.com/browser/trunk/plugins/openajax/lib/jQuery/OpenAjax
+
+.js?format=txt">jquery.openajax.js</a>&#8220;>&lt;/script></pre>
+
+<p>Be sure to include both jQuery and the jQuery OpenAjax plugin after you&#8217;ve included the official
+
+ OpenAjax library itself.</p>
+
+<p>And that&#8217;s it! jQuery will now happily play with the OpenAjax core library.</p>
+
+<p>It should be noted that, currently, jQuery is not part of the <a href="http://www.openajax.org/">OpenAjax
+
+ Alliance</a>, but we&#8217;re in the process of applying and are eager to begin actively participating
+
+.
+
+</p>
+
+]]></content:encoded>
+
+			<wfw:commentRSS>http://jquery.com/blog/2007/02/21/jquery-is-openajax-compliant/feed/</wfw:commentRSS
+
+>
+
+		</item>
+
+		<item>
+
+		<title>jQuery and Jack Slocum’s Ext</title>
+
+		<link>http://jquery.com/blog/2007/02/19/jquery-and-jack-slocums-ext/</link>
+
+		<comments>http://jquery.com/blog/2007/02/19/jquery-and-jack-slocums-ext/#comments</comments>
+
+		<pubDate>Tue, 20 Feb 2007 00:17:27 +0000</pubDate>
+
+		<dc:creator>John Resig</dc:creator>
+
+		
+
+	<category>Uncategorized</category>
+
+		<guid isPermaLink="false">http://jquery.com/blog/2007/02/19/jquery-and-jack-slocums-ext/</guid>
+
+		<description><![CDATA[
+
+Today, we’re proud to announce that the jQuery Project and Jack Slocum’s Ext Project, have partnered
+
+ to integrate the amazingly lightweight and powerful jQuery framework with Ext’s awesome UI library.
+
+ This collaboration will greatly enhance the capabilities of both projects and expand the functionality
+
+ available to developers using the jQuery JavaScript Library and the Ext [...]]]></description>
+
+			<content:encoded><![CDATA[<p><img id="image132" src="http://jquery.com/blog/wp-content/uploads/2007
+
+/02/extjs.png" alt="Ext JavaScript Library" height="92" width="128" style="float: right;"/></p>
+
+<p><iframe src='http://digg.com/api/diggthis.php?u=http://digg.com/programming/jQuery_Ext_Partner_to_Deliver_Integrated_JavaScript_UI_Features'
+
+ height='82' width='55' frameborder='0' scrolling='no' style="float: right;"></iframe></p>
+
+<p>Today, we’re proud to announce that the <a href="http://jquery.com/">jQuery Project</a> and <a href
+
+="http://jackslocum.com/">Jack Slocum</a>’s <a href="http://yui-ext.com/">Ext Project</a>, have partnered
+
+ to integrate the amazingly lightweight and powerful jQuery framework with Ext’s awesome UI library.
+
+ This collaboration will greatly enhance the capabilities of both projects and expand the functionality
+
+ available to developers using the jQuery JavaScript Library and the Ext UI component suite.</p>
+
+<p>Specifically, the upcoming Ext 1.0 release will be able to run, natively, on the jQuery JavaScript
+
+ Library. No other libraries will be required. The jQuery and Ext teams are actively working together
+
+ to bring this integration to the Ext codebase.</p>
+
+<p>Here&#8217;s some possible questions and answers (feel free to post any others that you have in the
+
+ comments):</p>
+
+<p><strong>What prompted the collaboration?</strong></p>
+
+<p>Ext has some fantastic components - arguably, the best on the web. jQuery has all the core functionality
+
+ to support what Ext has. The jQuery team contacted Jack Slocum with the hopes that we could work together
+
+ to add jQuery support to the Ext library, and Jack whole-heartedly agreed. It&#8217;s a win-win situation
+
+: jQuery gets some awesome components, Ext gets a huge influx of new users.</p>
+
+<p><strong>What are the benefits for jQuery and Ext users?</strong></p>
+
+<p>jQuery users gain a huge number of expertly-designed components that they will be able to deploy immediately
+
+. Additionally, they&#8217;ll be able to use them in a manner that better suits the jQuery philosophy
+
+ (e.g. being able to call Ext queries on sets of elements, chaining calls, leveraging jQuery&#8217;s
+
+ support for true unobtrusive DOM scripting etc.)</p>
+
+<p>At the same time, existing Ext users will gain the flexibility of being able to continue to use Ext
+
+’s professional-caliber components while leveraging the lightweight, small (~19k) and powerful jQuery
+
+ framework.</p>
+
+<p><strong>How will the two teams work together?</strong></p>
+
+<p>After the first beta release of Ext 1.0, jQuery will be providing a<br />
+
+strike team which will work to iron out all the integration points in Ext. At the same time, Jack will
+
+ be working to isolate all the remaining framework-specific code, making it easier for us to finish the
+
+ conversion process. All of this will be in place for Ext&#8217;s final 1.0 release, which will support
+
+ both Yahoo UI and jQuery.</p>
+
+<p><strong>How will support be handled?</strong></p>
+
+<p>The jQuery team will be providing support for any bugs that may only exist in the jQuery version of
+
+ Ext.</p>
+
+<p>Support for Ext, itself, will continue to be handled via the <a href="http://www.yui-ext.com/forum
+
+/">Ext forums</a>. The Ext project will also begin offering a level of paid support for its corporate
+
+ users.</p>
+
+<p><strong>What Ext features will be included in Ext 1.0 for jQuery</strong></p>
+
+<p>All available Ext 1.0 features are going to be supported by jQuery.</p>
+
+<p>The final feature list, for Ext 1.0, is still being finalized but a full breadth of new functionality
+
+ can be expected.</p>
+
+<p><strong>When will Ext 1.0 for jQuery be available?</strong></p>
+
+<p>The final release date still has yet to be finalized and we will make a formal announcement on the
+
+ jQuery blog, the jQuery mailing list, the Ext project site, and the Ext forums once the its ready to
+
+ go.</p>
+
+<p>An <a href="http://www.yui-ext.com/forum/viewtopic.php?t=2819">alpha release of Ext 1.0</a> was just
+
+ released, but does not, yet, include the jQuery compatibility layer.</p>
+
+<p><strong>Do any licensing issues exist?</strong></p>
+
+<p>No. jQuery’s licensing will remain the same, and Ext 1.0 will be completely open source (LGPL).</p
+
+>
+
+<p>Additionally, corporations <a href="http://www.yui-ext.com/forum/viewtopic.php?t=2737">will be able
+
+ to purchase</a> an Ext support license. This will include email support and SVN access, amongst other
+
+ features.</p>
+
+<p><b>Update:</b> <a href="http://digg.com/programming/jQuery_Ext_Partner_to_Deliver_Integrated_JavaScript_UI_Features"
+
+>Digg this story up!</a></p>
+
+<h2>Examples</h2>
+
+<p>Here are examples of what you can do with Ext. (All demos currently run on Yahoo UI, as the Ext 1
+
+.0 alpha release doesn&#8217;t support jQuery.)</p>
+
+<p><b>Paged, Dynamic, Grids</b></p>
+
+<p><a href="http://yui-ext.com/deploy/ext-1.0-alpha1/examples/grid/paging.html"><img id="image137" src
+
+="http://jquery.com/blog/wp-content/uploads/2007/02/Picture%206.png" alt="Ext Paged Grid" style="border
+
+:0"/></a></p>
+
+<p><b>Mixed Content Menus</b></p>
+
+<p><a href="http://yui-ext.com/deploy/ext-1.0-alpha1/examples/menu/menus.html"><img id="image136" src
+
+="http://jquery.com/blog/wp-content/uploads/2007/02/Picture%207.png" alt="Ext Mixed Content Menus" style
+
+="border:0"/></a></p>
+
+<p><b>Advanced Dialog Layout and Themes</b></p>
+
+<p><a href="http://yui-ext.com/deploy/ext-1.0-alpha1/examples/dialog/layout.html"><img id="image133"
+
+ src="http://jquery.com/blog/wp-content/uploads/2007/02/Picture%203.png" alt="Ext Dialog Layout" style
+
+="border:0"/></a></p>
+
+<p><b>Message Box Dialog</b></p>
+
+<p><a href="http://yui-ext.com/deploy/ext-1.0-alpha1/examples/dialog/msg-box.html"><img id="image134"
+
+ src="http://jquery.com/blog/wp-content/uploads/2007/02/Picture%204.png" alt="Ext Message Box Dialog"
+
+ style="border:0"/></a></p>
+
+<p><b>Drag-and-Drop Trees</b></p>
+
+<p><a href="http://yui-ext.com/deploy/ext-1.0-alpha1/examples/tree/two-trees.html"><img id="image135"
+
+ src="http://jquery.com/blog/wp-content/uploads/2007/02/Picture%205.png" alt="Ext Drag and Drop Trees"
+
+ style="border:0"/></a>
+
+</p>
+
+]]></content:encoded>
+
+			<wfw:commentRSS>http://jquery.com/blog/2007/02/19/jquery-and-jack-slocums-ext/feed/</wfw:commentRSS
+
+>
+
+		</item>
+
+		<item>
+
+		<title>The jQuery IRC Channel</title>
+
+		<link>http://jquery.com/blog/2007/02/17/the-jquery-irc-channel/</link>
+
+		<comments>http://jquery.com/blog/2007/02/17/the-jquery-irc-channel/#comments</comments>
+
+		<pubDate>Sun, 18 Feb 2007 00:38:41 +0000</pubDate>
+
+		<dc:creator>wycats</dc:creator>
+
+		
+
+	<category>Uncategorized</category>
+
+		<guid isPermaLink="false">http://jquery.com/blog/2007/02/17/the-jquery-irc-channel/</guid>
+
+		<description><![CDATA[In addition to jQuery&#8217;s great Mailing List and Documentation, there&#8217
+
+;s another place where users can seek  help about jQuery problems: We have a very active jQuery IRC channel
+
+.
+
+Even though it&#8217;s never really been publicly announced, the channel currently averages over 50 simultaneous
+
+ users, including some friendly jQuery bots! Hosted on irc.freenode.net, #jquery always has [...]]]>
+
+</description>
+
+			<content:encoded><![CDATA[<p>In addition to jQuery&#8217;s great <a href="http://jquery.com/discuss
+
+/">Mailing List</a> and <a href="http://docs.jquery.com/Main_Page">Documentation</a>, there&#8217;s another
+
+ place where users can seek  help about jQuery problems: <b>We have a very active jQuery IRC channel
+
+.</b></p>
+
+<p>Even though it&#8217;s never really been publicly announced, the channel currently averages over 50
+
+ simultaneous users, including some friendly jQuery bots! Hosted on irc.freenode.net, #jquery always
+
+ has users who are online and willing to answer your questions (of which, they are often answered within
+
+ minutes of their being asked).</p>
+
+<p>Here&#8217;s the information that you will need in order to <a href="irc://irc.freenode.net/jquery"
+
+>connect to the channel</a>:<br />
+
+<b>Server:</b> irc.freenode.net<br />
+
+<b>Room:</b> #jquery</p>
+
+<p><a href="http://docs.jquery.com/Contributors">jQuery team members</a>, especially <a href="http:/
+
+/ejohn.org/">John Resig</a> (nick: JohnResig), <a href="http://bassistance.de/">Joern Zaefferer</a> 
+
+(nick: JoernZaefferer), and <a href="http://yehudakatz.com/">Yehuda Katz</a> (nick: wycats) are frequently
+
+ in attendance, helping experienced and new users alike with both complex and trivial problems.</p>
+
+<p>The IRC Channel is best if you need quick help with any of the following:
+
+<ul>
+
+<li>JavaScript</li>
+
+<li>jQuery Syntax</li>
+
+<li>Problem Solving</li>
+
+<li>Strange bugs</li>
+
+</ul>
+
+<p><br/></p>
+
+<p>If your problem is more in-depth, we may ask you to post to the <a href="http://jquery.com/discuss
+
+/">mailing list</a>, or the <a href="http://jquery.com/dev/bugs/">bug tracker</a>, so that we can help
+
+ you in a more-suitable environment.</p>
+
+<p>Additionally, we recently started logging the channel, so you can now look back through to find answers
+
+ to your old problems: <a href="http://jquery.com/discuss/irc/">jQuery IRC channel Log</a>
+
+</p>
+
+]]></content:encoded>
+
+			<wfw:commentRSS>http://jquery.com/blog/2007/02/17/the-jquery-irc-channel/feed/</wfw:commentRSS>
+
+		</item>
+
+		<item>
+
+		<title>jQuery Nightly Builds</title>
+
+		<link>http://jquery.com/blog/2007/02/13/jquery-nightly-builds/</link>
+
+		<comments>http://jquery.com/blog/2007/02/13/jquery-nightly-builds/#comments</comments>
+
+		<pubDate>Wed, 14 Feb 2007 03:40:09 +0000</pubDate>
+
+		<dc:creator>Paul McLanahan</dc:creator>
+
+		
+
+	<category>Uncategorized</category>
+
+		<guid isPermaLink="false">http://jquery.com/blog/2007/02/13/jquery-nightly-builds/</guid>
+
+		<description><![CDATA[After much wailing and gnashing of teeth by certain members of the discussion
+
+ mailing list (read: me), we now have automated nightly builds of jQuery ready for mass consumption.
+
+ These builds came about at the request of we community members who would like to experiment with the
+
+ most recent features of jQuery on our projects, [...]]]></description>
+
+			<content:encoded><![CDATA[<p>After much wailing and gnashing of teeth by certain members of the <a
+
+ href="http://jquery.com/discuss/">discussion mailing list</a> (read: me), we now have automated nightly
+
+ builds of jQuery ready for mass consumption. These builds came about at the request of we community
+
+ members who would like to experiment with the most recent features of jQuery on our projects, but who
+
+, for whatever reason, find ourselves behind firewalls that restrict our access to the <a href="http
+
+://docs.jquery.com/Downloading_jQuery">subversion repository</a>.</p>
+
+<p>Without further ado, here are the gory details: You can get your bleeding-edge-jQuery fix at <a href
+
+="http://jquery.com/src/nightlies/">http://jquery.com/src/nightlies/</a>. This folder will simply show
+
+ you a list of available files. There are 4 files in there in which most of you will be most interested
+
+&#8230;</p>
+
+<ol>
+
+<li><a href="http://jquery.com/src/nightlies/jquery-nightly.js">jquery-nightly.js</a> - Pretty self-explainatory
+
+. It&#8217;s the uncompressed jQuery. Mmmm&#8230; fresh from the repository</li>
+
+<li><a href="http://jquery.com/src/nightlies/jquery-nightly.pack.js">jquery-nightly.pack.js</a> - As
+
+ the more perceptive of you have already guessed, it&#8217;s the <a href="http://dean.edwards.name/packer
+
+/">packed</a> version of #1</li>
+
+<li><a href="http://jquery.com/src/nightlies/jquery-nightly.release.zip">jquery-nightly.release.zip<
+
+/a> - This contains the docs, test suite, and all of the pre-built versions of jQuery</li>
+
+<li><a href="http://jquery.com/src/nightlies/jquery-nightly.build.zip">jquery-nightly.build.zip</a> -
+
+ Is the real win for we poor souls behind the fiery-walls of the corporate world. It contains the full
+
+ jquery path from the repo, and is everything you need to build your very own jQuery</li>
+
+</ol>
+
+<p>The nightlies folder will also fill up with dated versions of all 4 of these files so that you can
+
+ go find jQuery at whatever vintage you prefer.</p>
+
+<p>New versions of the nightlies will be added every day at 2am EST (7am GMT), and will consist of the
+
+ most recent revision from the subversion repository at that time.</p>
+
+<p>If all of this talk of subversion, repositories, bleeding-edge, and nightly building makes the stability
+
+ craving web deveoper inside you run away screaming, fear not. The <a href="http://jquery.com/">stable
+
+ release download</a> you need is still right here waiting for you. </p>
+
+<p>Thanks go to <a href="http://ejohn.org/">John Resig</a> for hooking us up with the server-side magic
+
+ that got this automated build process running (not to mention for the server, the bandwidth, and for
+
+ jQuery in general <img src='http://jquery.com/blog/wp-includes/images/smilies/icon_smile.gif' alt='
+
+:)' class='wp-smiley' />  ).
+
+</p>
+
+]]></content:encoded>
+
+			<wfw:commentRSS>http://jquery.com/blog/2007/02/13/jquery-nightly-builds/feed/</wfw:commentRSS>
+
+		</item>
+
+		<item>
+
+		<title>New jQuery Project Team Members</title>
+
+		<link>http://jquery.com/blog/2007/02/02/new-jquery-project-team-members/</link>
+
+		<comments>http://jquery.com/blog/2007/02/02/new-jquery-project-team-members/#comments</comments>
+
+		<pubDate>Fri, 02 Feb 2007 21:27:43 +0000</pubDate>
+
+		<dc:creator>ReyBango</dc:creator>
+
+		
+
+	<category>Uncategorized</category>
+
+		<guid isPermaLink="false">http://jquery.com/blog/2007/02/02/new-jquery-project-team-members/</guid
+
+>
+
+		<description><![CDATA[The jQuery team would like to welcome our newest team members, Yehuda  Katz,
+
+ Nate Cavanaugh, &#038; Klaus Hartl. These three developers have made invaluable contributions to the
+
+ jQuery projects in terms of time, knowledge and commitment to the community.
+
+Yehuda is a developer living in New York City who maintains the web site  Visual [...]]]></description
+
+>
+
+			<content:encoded><![CDATA[<p>The <a href="http://docs.jquery.com/About/Contributors">jQuery team<
+
+/a> would like to welcome our newest team members, <strong><a href="http://yehudakatz.com/">Yehuda  Katz
+
+</a></strong>, <strong><a href="http://alterform.com/">Nate Cavanaugh</a></strong>, &#038; <strong><a
+
+ href="http://stilbuero.de/">Klaus Hartl</a></strong>. These three developers have made invaluable contributions
+
+ to the jQuery projects in terms of time, knowledge and commitment to the community.</p>
+
+<p><strong><a href="http://yehudakatz.com/">Yehuda</a></strong> is a developer living in New York City
+
+ who maintains the web site  Visual jQuery, and publishes the Visual jQuery Magazine. Additionally, 
+
+ he&#8217;s a frequent contributor to the jQuery Blog and promoter of good  practices within the jQuery
+
+ core. As a member of the evangelism team  he&#8217;s working to help people discover jQuery; actively
+
+ trying to find and  promote jQuery to new users.</p>
+
+<p><strong><a href="http://alterform.com/">Nate</a></strong> is a designer living in California. He was
+
+ responsible for the  recent redesign of the jQuery site. He&#8217;s going to be helping to design  new
+
+ portions of the site, and help to bring outdated portions of the site inline with the rest. He&#8217
+
+;s also working to take a critical look at how using jQuery, as a design tool, can help to promote Unobtrusive
+
+ design principals.</p>
+
+<p><strong><a href="http://stilbuero.de/">Klaus</a></strong> has been one of the most vocal supporter
+
+ of jQuery and unobtrusive  design on the jQuery mailing list. His ability to expertly explain  quality
+
+, unobtrusive, solutions to problems is invaluable will be a  tremendous boon to the jQuery project.
+
+ Klaus will be working with both  the Evangelism &#038; Dev teams, to help promote jQuery and expand
+
+ its reach  as well as maintaining Thickbox and the Tabs plugin. He will also be  spearheading the effort
+
+ to make Tabs an official plugin.</p>
+
+<p>We&#8217;re very pleased to be working with all of you and welcome you to the <a href="http://docs
+
+.jquery.com/About/Contributors">jQuery team</a>.
+
+</p>
+
+]]></content:encoded>
+
+			<wfw:commentRSS>http://jquery.com/blog/2007/02/02/new-jquery-project-team-members/feed/</wfw:commentRSS
+
+>
+
+		</item>
+
+		<item>
+
+		<title>New jQuery API Browser</title>
+
+		<link>http://jquery.com/blog/2007/01/29/new-jquery-api-browser/</link>
+
+		<comments>http://jquery.com/blog/2007/01/29/new-jquery-api-browser/#comments</comments>
+
+		<pubDate>Mon, 29 Jan 2007 15:44:19 +0000</pubDate>
+
+		<dc:creator>ReyBango</dc:creator>
+
+		
+
+	<category>Uncategorized</category>
+
+		<guid isPermaLink="false">http://jquery.com/blog/2007/01/29/new-jquery-api-browser/</guid>
+
+		<description><![CDATA[
+
+The jQuery team continues to pump out additional tools and resources to make development using jQuery
+
+ easy, efficient and productive. The latest addition to jQuery&#8217;s growing list of tools is project
+
+ team lead Jorn Zaefferer&#8217;s new jQuery API Browser.
+
+Visit: http://jquery.bassistance.de/api-browser/
+
+The jQuery API browser provides an intuitive interface to quickly find information on jQuery&#8217;s
+
+ methods and [...]]]></description>
+
+			<content:encoded><![CDATA[<p><iframe src='http://digg.com/api/diggthis.php?u=http://digg.com/programming
+
+/New_jQuery_JS_Ajax_Library_API_Browser' height='82' width='55' frameborder='0' scrolling='no' style
+
+="float: right;"></iframe></p>
+
+<p>The jQuery team continues to pump out additional tools and resources to make development using jQuery
+
+ easy, efficient and productive. The latest addition to jQuery&#8217;s growing list of tools is project
+
+ team lead Jorn Zaefferer&#8217;s new jQuery API Browser.</p>
+
+<p><center><a target="_blank" href="http://jquery.bassistance.de/api-browser/"><img id="image126" src
+
+="http://jquery.com/blog/wp-content/uploads/2007/01/Screenshot_2.png" alt="jQuery API Browser" height
+
+="249" width="384" /></a><br />
+
+<b>Visit: <a target="_blank" href="http://jquery.bassistance.de/api-browser/">http://jquery.bassistance
+
+.de/api-browser/</a></b></center></p>
+
+<p>The jQuery API browser provides an intuitive interface to quickly find information on jQuery&#8217
+
+;s methods and properties. Features include:</p>
+
+<ul>
+
+<li>Tabbed navigation</li>
+
+<li>Treeview on categories</li>
+
+<li>Quicksearch on both navigation and main content</li>
+
+<li>Code highlighting for both HTML and JavaScript snippets</li>
+
+<li>A vertical splitter that allows you to resize navigation/content panes</li>
+
+<li>Highlighting selected methods in the content</li>
+
+<li>Styled tooltips for method arguments</li>
+
+</ul>
+
+<p>The API browser is available both online and as a download for local usage.</p>
+
+<p>The jQuery project offers a comprehensive &#038; ever-growing list of resources that will provide
+
+ developers with documentation, tutorials, and plugins/widgets for their site development.</p>
+
+<p>jQuery:<br />
+
+<a target="_blank" href="http://jquery.com/">http://jquery.com/</a></p>
+
+<p>Plugins &#038; UI Widgets/Controls:<br />
+
+<a target="_blank" href="http://docs.jquery.com/Plugins">http://docs.jquery.com/Plugins</a></p>
+
+<p>Documentation:<br />
+
+<a target="_blank" href="http://docs.jquery.com/Main_Page">http://docs.jquery.com/Main_Page</a><br /
+
+>
+
+<a target="_blank" href="http://www.visualjquery.com/">http://www.visualjquery.com/</a><br />
+
+<a target="_blank" href="http://jquery.bassistance.de/api-browser/">http://jquery.bassistance.de/api-browser
+
+/</a></p>
+
+<p>Magazine:<br />
+
+<a target="_blank" href="http://www.visualjquery.com/magazine/">http://www.visualjquery.com/magazine
+
+/</a></p>
+
+<p>Mailing List:<br />
+
+<a target="_blank" href="http://jquery.com/discuss/">http://jquery.com/discuss/</a></p>
+
+<p>Project Blog:<br />
+
+<a target="_blank" href="http://jquery.com/blog//">http://jquery.com/blog/</a></p>
+
+<p>Learning Resources:<br />
+
+<a target="_blank" href="http://docs.jquery.com/Tutorials">http://docs.jquery.com/Tutorials</a><br /
+
+>
+
+<a target="_blank" href="http://www.learningjquery.com/">http://www.learningjquery.com/</a><br />
+
+<a target="_blank" href="http://15daysofjquery.com/">http://15daysofjquery.com/</a></p>
+
+<p>About<br />
+
+<a target="_blank" href="http://docs.jquery.com/Sites_Using_jQuery">http://docs.jquery.com/Sites_Using_jQuery
+
+</a><br />
+
+<a target="_blank" href="http://docs.jquery.com/About/Contributors">http://docs.jquery.com/About/Contributors
+
+</a></p>
+
+<p>Don&#8217;t forget to <a href="http://digg.com/programming/New_jQuery_JS_Ajax_Library_API_Browser"
+
+>Digg up this article</a> on Digg!
+
+</p>
+
+]]></content:encoded>
+
+			<wfw:commentRSS>http://jquery.com/blog/2007/01/29/new-jquery-api-browser/feed/</wfw:commentRSS>
+
+		</item>
+
+	<feedburner:awareness xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">http://api.feedburner
+
+.com/awareness/1.0/GetFeedData?uri=jquery</feedburner:awareness></channel>
+
+</rss>
