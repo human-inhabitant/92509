@@ -143,7 +143,6 @@
           }
         }
         rowIndex++;
-        console.info( 'rowIndex', rowIndex );
       });
     });
     $( this ).trigger( 'stripe' );
@@ -232,10 +231,7 @@
             .appendTo( $filters )
           ;
         });
-
-
         $filters.insertBefore( $table );
-        console.info('column', column );
       }
     });
   });
