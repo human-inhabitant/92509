@@ -1,50 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
 
-<?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"
+    <channel>
 
-?><?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/itemcontent.css" type="text/css" media
+        <title>jQuery Blog</title>
 
-="screen"?><!-- generator="wordpress/2.0" --><rss xmlns:content="http://purl.org/rss/1.0/modules/content
+        <link>http://jquery.com/blog</link>
 
-/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" version
+        <description>New Wave Javascript.</description>
 
-="2.0">
+        <pubDate>Tue, 03 Apr 2007 14:42:46 +0000</pubDate>
 
-<channel>
+        <generator>http://wordpress.org/?v=2.0</generator>
 
-	<title>jQuery Blog</title>
+        <language>en</language>
 
-	<link>http://jquery.com/blog</link>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/jquery" type="application/rss+xml"/>
+        <item>
 
-	<description>New Wave Javascript.</description>
+            <title>Google Groups and Amazon S3</title>
 
-	<pubDate>Tue, 03 Apr 2007 14:42:46 +0000</pubDate>
+            <link>http://jquery.com/blog/2007/04/02/google-groups-and-amazon-s3/</link>
 
-	<generator>http://wordpress.org/?v=2.0</generator>
+            <comments>http://jquery.com/blog/2007/04/02/google-groups-and-amazon-s3/#comments</comments>
 
-	<language>en</language>
+            <pubDate>Mon, 02 Apr 2007 05:15:47 +0000</pubDate>
 
-			<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com
+            <dc:creator>John Resig</dc:creator>
 
-/jquery" type="application/rss+xml" /><item>
 
-		<title>Google Groups and Amazon S3</title>
+            <category>Uncategorized</category>
 
-		<link>http://jquery.com/blog/2007/04/02/google-groups-and-amazon-s3/</link>
+            <guid isPermaLink="false">http://jquery.com/blog/2007/04/02/google-groups-and-amazon-s3/</guid>
 
-		<comments>http://jquery.com/blog/2007/04/02/google-groups-and-amazon-s3/#comments</comments>
-
-		<pubDate>Mon, 02 Apr 2007 05:15:47 +0000</pubDate>
-
-		<dc:creator>John Resig</dc:creator>
-
-		
-
-	<category>Uncategorized</category>
-
-		<guid isPermaLink="false">http://jquery.com/blog/2007/04/02/google-groups-and-amazon-s3/</guid>
-
-		<description><![CDATA[Two new improvements have just gone into place to help improve the quality of
+            <description><![CDATA[Two new improvements have just gone into place to help improve the quality of
 
  the jQuery site.
 
@@ -54,7 +44,7 @@ This move is going to help provide huge increases in the overall speed, and qual
 
  list. At the time of the move we were sending out, [...]]]></description>
 
-			<content:encoded><![CDATA[<p>Two new improvements have just gone into place to help improve the quality
+            <content:encoded><![CDATA[<p>Two new improvements have just gone into place to help improve the quality
 
  of the jQuery site.</p>
 
@@ -152,31 +142,31 @@ This move is going to help provide huge increases in the overall speed, and qual
 
 ]]></content:encoded>
 
-			<wfw:commentRSS>http://jquery.com/blog/2007/04/02/google-groups-and-amazon-s3/feed/</wfw:commentRSS
+            <wfw:commentRSS>http://jquery.com/blog/2007/04/02/google-groups-and-amazon-s3/feed/
+            </wfw:commentRSS
 
->
+            >
 
-		</item>
+        </item>
 
-		<item>
+        <item>
 
-		<title>jQuery Book Coming Soon</title>
+            <title>jQuery Book Coming Soon</title>
 
-		<link>http://jquery.com/blog/2007/03/26/jquery-book-coming-soon/</link>
+            <link>http://jquery.com/blog/2007/03/26/jquery-book-coming-soon/</link>
 
-		<comments>http://jquery.com/blog/2007/03/26/jquery-book-coming-soon/#comments</comments>
+            <comments>http://jquery.com/blog/2007/03/26/jquery-book-coming-soon/#comments</comments>
 
-		<pubDate>Mon, 26 Mar 2007 11:42:14 +0000</pubDate>
+            <pubDate>Mon, 26 Mar 2007 11:42:14 +0000</pubDate>
 
-		<dc:creator>Karl Swedberg</dc:creator>
+            <dc:creator>Karl Swedberg</dc:creator>
 
-		
 
-	<category>Uncategorized</category>
+            <category>Uncategorized</category>
 
-		<guid isPermaLink="false">http://jquery.com/blog/2007/03/26/jquery-book-coming-soon/</guid>
+            <guid isPermaLink="false">http://jquery.com/blog/2007/03/26/jquery-book-coming-soon/</guid>
 
-		<description><![CDATA[For those of you who have been following the jQuery blog the past couple months
+            <description><![CDATA[For those of you who have been following the jQuery blog the past couple months
 
 , you may have noticed John Resig&#8217;s mention of a secret: &#8220;There&#8217;s a jQuery book in
 
@@ -186,7 +176,7 @@ This move is going to help provide huge increases in the overall speed, and qual
 
 For the past few months my friend Jonathan [...]]]></description>
 
-			<content:encoded><![CDATA[<p>For those of you who have been following the jQuery blog the past couple
+            <content:encoded><![CDATA[<p>For those of you who have been following the jQuery blog the past couple
 
  months, you may have noticed <a href="http://jquery.com/blog/2007/01/14/jquery-birthday-11-new-site-new-docs
 
@@ -228,29 +218,28 @@ For the past few months my friend Jonathan [...]]]></description>
 
 ]]></content:encoded>
 
-			<wfw:commentRSS>http://jquery.com/blog/2007/03/26/jquery-book-coming-soon/feed/</wfw:commentRSS>
+            <wfw:commentRSS>http://jquery.com/blog/2007/03/26/jquery-book-coming-soon/feed/</wfw:commentRSS>
 
-		</item>
+        </item>
 
-		<item>
+        <item>
 
-		<title>SXSWi jQuery Meetup</title>
+            <title>SXSWi jQuery Meetup</title>
 
-		<link>http://jquery.com/blog/2007/03/11/sxswi-jquery-meetup/</link>
+            <link>http://jquery.com/blog/2007/03/11/sxswi-jquery-meetup/</link>
 
-		<comments>http://jquery.com/blog/2007/03/11/sxswi-jquery-meetup/#comments</comments>
+            <comments>http://jquery.com/blog/2007/03/11/sxswi-jquery-meetup/#comments</comments>
 
-		<pubDate>Sun, 11 Mar 2007 06:49:09 +0000</pubDate>
+            <pubDate>Sun, 11 Mar 2007 06:49:09 +0000</pubDate>
 
-		<dc:creator>John Resig</dc:creator>
+            <dc:creator>John Resig</dc:creator>
 
-		
 
-	<category>Uncategorized</category>
+            <category>Uncategorized</category>
 
-		<guid isPermaLink="false">http://jquery.com/blog/2007/03/11/sxswi-jquery-meetup/</guid>
+            <guid isPermaLink="false">http://jquery.com/blog/2007/03/11/sxswi-jquery-meetup/</guid>
 
-		<description><![CDATA[Right now the annual SXSWi conference is happening in beautiful, sunny, Austin
+            <description><![CDATA[Right now the annual SXSWi conference is happening in beautiful, sunny, Austin
 
 , Texas. Interestingly enough, there&#8217;s a ton of jQuery users here (as am I). I&#8217;ve already
 
@@ -258,7 +247,7 @@ For the past few months my friend Jonathan [...]]]></description>
 
 As proposed by Luke Lutman, on the mailing list, and [...]]]></description>
 
-			<content:encoded><![CDATA[<p>Right now the annual SXSWi conference is happening in beautiful, sunny
+            <content:encoded><![CDATA[<p>Right now the annual SXSWi conference is happening in beautiful, sunny
 
 , Austin, Texas. Interestingly enough, there&#8217;s a ton of jQuery users here (as am I). I&#8217;ve
 
@@ -290,29 +279,28 @@ As proposed by Luke Lutman, on the mailing list, and [...]]]></description>
 
 ]]></content:encoded>
 
-			<wfw:commentRSS>http://jquery.com/blog/2007/03/11/sxswi-jquery-meetup/feed/</wfw:commentRSS>
+            <wfw:commentRSS>http://jquery.com/blog/2007/03/11/sxswi-jquery-meetup/feed/</wfw:commentRSS>
 
-		</item>
+        </item>
 
-		<item>
+        <item>
 
-		<title>jQuery 1.1.2</title>
+            <title>jQuery 1.1.2</title>
 
-		<link>http://jquery.com/blog/2007/02/27/jquery-112/</link>
+            <link>http://jquery.com/blog/2007/02/27/jquery-112/</link>
 
-		<comments>http://jquery.com/blog/2007/02/27/jquery-112/#comments</comments>
+            <comments>http://jquery.com/blog/2007/02/27/jquery-112/#comments</comments>
 
-		<pubDate>Wed, 28 Feb 2007 04:28:34 +0000</pubDate>
+            <pubDate>Wed, 28 Feb 2007 04:28:34 +0000</pubDate>
 
-		<dc:creator>John Resig</dc:creator>
+            <dc:creator>John Resig</dc:creator>
 
-		
 
-	<category>Uncategorized</category>
+            <category>Uncategorized</category>
 
-		<guid isPermaLink="false">http://jquery.com/blog/2007/02/27/jquery-112/</guid>
+            <guid isPermaLink="false">http://jquery.com/blog/2007/02/27/jquery-112/</guid>
 
-		<description><![CDATA[Translations: Italiano, français
+            <description><![CDATA[Translations: Italiano, français
 
 The release of jQuery 1.1.2 is upon us! This is a another bug fix release. We&#8217;ve fixed a number
 
@@ -324,7 +312,7 @@ The release of jQuery 1.1.2 is upon us! This is a another bug fix release. We&#8
 
 It [...]]]></description>
 
-			<content:encoded><![CDATA[<p><b>Translations:</b> <a href="http://www.jquery.info/spip.php?article43"
+            <content:encoded><![CDATA[<p><b>Translations:</b> <a href="http://www.jquery.info/spip.php?article43"
 
 >Italiano</a>, <a href="http://www.jquery.info/spip.php?article42">français</a></p>
 
@@ -466,29 +454,28 @@ It [...]]]></description>
 
 ]]></content:encoded>
 
-			<wfw:commentRSS>http://jquery.com/blog/2007/02/27/jquery-112/feed/</wfw:commentRSS>
+            <wfw:commentRSS>http://jquery.com/blog/2007/02/27/jquery-112/feed/</wfw:commentRSS>
 
-		</item>
+        </item>
 
-		<item>
+        <item>
 
-		<title>jQuery is OpenAjax Compliant</title>
+            <title>jQuery is OpenAjax Compliant</title>
 
-		<link>http://jquery.com/blog/2007/02/21/jquery-is-openajax-compliant/</link>
+            <link>http://jquery.com/blog/2007/02/21/jquery-is-openajax-compliant/</link>
 
-		<comments>http://jquery.com/blog/2007/02/21/jquery-is-openajax-compliant/#comments</comments>
+            <comments>http://jquery.com/blog/2007/02/21/jquery-is-openajax-compliant/#comments</comments>
 
-		<pubDate>Wed, 21 Feb 2007 05:53:33 +0000</pubDate>
+            <pubDate>Wed, 21 Feb 2007 05:53:33 +0000</pubDate>
 
-		<dc:creator>John Resig</dc:creator>
+            <dc:creator>John Resig</dc:creator>
 
-		
 
-	<category>Uncategorized</category>
+            <category>Uncategorized</category>
 
-		<guid isPermaLink="false">http://jquery.com/blog/2007/02/21/jquery-is-openajax-compliant/</guid>
+            <guid isPermaLink="false">http://jquery.com/blog/2007/02/21/jquery-is-openajax-compliant/</guid>
 
-		<description><![CDATA[
+            <description><![CDATA[
 
 A new initiative has been forming, over the recent months, in an attempt to standardize the different
 
@@ -498,7 +485,7 @@ A new initiative has been forming, over the recent months, in an attempt to stan
 
 Today we&#8217;re announcing a new plugin that you can use to make jQuery [...]]]></description>
 
-			<content:encoded><![CDATA[<p><img id="image139" src="http://jquery.com/blog/wp-content/uploads/2007
+            <content:encoded><![CDATA[<p><img id="image139" src="http://jquery.com/blog/wp-content/uploads/2007
 
 /02/openajax.png" alt="OpenAjax Alliance" style="float:right;" /></p>
 
@@ -586,31 +573,31 @@ Today we&#8217;re announcing a new plugin that you can use to make jQuery [...]]
 
 ]]></content:encoded>
 
-			<wfw:commentRSS>http://jquery.com/blog/2007/02/21/jquery-is-openajax-compliant/feed/</wfw:commentRSS
+            <wfw:commentRSS>http://jquery.com/blog/2007/02/21/jquery-is-openajax-compliant/feed/
+            </wfw:commentRSS
 
->
+            >
 
-		</item>
+        </item>
 
-		<item>
+        <item>
 
-		<title>jQuery and Jack Slocum’s Ext</title>
+            <title>jQuery and Jack Slocum’s Ext</title>
 
-		<link>http://jquery.com/blog/2007/02/19/jquery-and-jack-slocums-ext/</link>
+            <link>http://jquery.com/blog/2007/02/19/jquery-and-jack-slocums-ext/</link>
 
-		<comments>http://jquery.com/blog/2007/02/19/jquery-and-jack-slocums-ext/#comments</comments>
+            <comments>http://jquery.com/blog/2007/02/19/jquery-and-jack-slocums-ext/#comments</comments>
 
-		<pubDate>Tue, 20 Feb 2007 00:17:27 +0000</pubDate>
+            <pubDate>Tue, 20 Feb 2007 00:17:27 +0000</pubDate>
 
-		<dc:creator>John Resig</dc:creator>
+            <dc:creator>John Resig</dc:creator>
 
-		
 
-	<category>Uncategorized</category>
+            <category>Uncategorized</category>
 
-		<guid isPermaLink="false">http://jquery.com/blog/2007/02/19/jquery-and-jack-slocums-ext/</guid>
+            <guid isPermaLink="false">http://jquery.com/blog/2007/02/19/jquery-and-jack-slocums-ext/</guid>
 
-		<description><![CDATA[
+            <description><![CDATA[
 
 Today, we’re proud to announce that the jQuery Project and Jack Slocum’s Ext Project, have partnered
 
@@ -620,7 +607,7 @@ Today, we’re proud to announce that the jQuery Project and Jack Slocum’s Ext
 
  available to developers using the jQuery JavaScript Library and the Ext [...]]]></description>
 
-			<content:encoded><![CDATA[<p><img id="image132" src="http://jquery.com/blog/wp-content/uploads/2007
+            <content:encoded><![CDATA[<p><img id="image132" src="http://jquery.com/blog/wp-content/uploads/2007
 
 /02/extjs.png" alt="Ext JavaScript Library" height="92" width="128" style="float: right;"/></p>
 
@@ -784,31 +771,31 @@ strike team which will work to iron out all the integration points in Ext. At th
 
 ]]></content:encoded>
 
-			<wfw:commentRSS>http://jquery.com/blog/2007/02/19/jquery-and-jack-slocums-ext/feed/</wfw:commentRSS
+            <wfw:commentRSS>http://jquery.com/blog/2007/02/19/jquery-and-jack-slocums-ext/feed/
+            </wfw:commentRSS
 
->
+            >
 
-		</item>
+        </item>
 
-		<item>
+        <item>
 
-		<title>The jQuery IRC Channel</title>
+            <title>The jQuery IRC Channel</title>
 
-		<link>http://jquery.com/blog/2007/02/17/the-jquery-irc-channel/</link>
+            <link>http://jquery.com/blog/2007/02/17/the-jquery-irc-channel/</link>
 
-		<comments>http://jquery.com/blog/2007/02/17/the-jquery-irc-channel/#comments</comments>
+            <comments>http://jquery.com/blog/2007/02/17/the-jquery-irc-channel/#comments</comments>
 
-		<pubDate>Sun, 18 Feb 2007 00:38:41 +0000</pubDate>
+            <pubDate>Sun, 18 Feb 2007 00:38:41 +0000</pubDate>
 
-		<dc:creator>wycats</dc:creator>
+            <dc:creator>wycats</dc:creator>
 
-		
 
-	<category>Uncategorized</category>
+            <category>Uncategorized</category>
 
-		<guid isPermaLink="false">http://jquery.com/blog/2007/02/17/the-jquery-irc-channel/</guid>
+            <guid isPermaLink="false">http://jquery.com/blog/2007/02/17/the-jquery-irc-channel/</guid>
 
-		<description><![CDATA[In addition to jQuery&#8217;s great Mailing List and Documentation, there&#8217
+            <description><![CDATA[In addition to jQuery&#8217;s great Mailing List and Documentation, there&#8217
 
 ;s another place where users can seek  help about jQuery problems: We have a very active jQuery IRC channel
 
@@ -818,9 +805,9 @@ Even though it&#8217;s never really been publicly announced, the channel current
 
  users, including some friendly jQuery bots! Hosted on irc.freenode.net, #jquery always has [...]]]>
 
-</description>
+            </description>
 
-			<content:encoded><![CDATA[<p>In addition to jQuery&#8217;s great <a href="http://jquery.com/discuss
+            <content:encoded><![CDATA[<p>In addition to jQuery&#8217;s great <a href="http://jquery.com/discuss
 
 /">Mailing List</a> and <a href="http://docs.jquery.com/Main_Page">Documentation</a>, there&#8217;s another
 
@@ -882,29 +869,28 @@ Even though it&#8217;s never really been publicly announced, the channel current
 
 ]]></content:encoded>
 
-			<wfw:commentRSS>http://jquery.com/blog/2007/02/17/the-jquery-irc-channel/feed/</wfw:commentRSS>
+            <wfw:commentRSS>http://jquery.com/blog/2007/02/17/the-jquery-irc-channel/feed/</wfw:commentRSS>
 
-		</item>
+        </item>
 
-		<item>
+        <item>
 
-		<title>jQuery Nightly Builds</title>
+            <title>jQuery Nightly Builds</title>
 
-		<link>http://jquery.com/blog/2007/02/13/jquery-nightly-builds/</link>
+            <link>http://jquery.com/blog/2007/02/13/jquery-nightly-builds/</link>
 
-		<comments>http://jquery.com/blog/2007/02/13/jquery-nightly-builds/#comments</comments>
+            <comments>http://jquery.com/blog/2007/02/13/jquery-nightly-builds/#comments</comments>
 
-		<pubDate>Wed, 14 Feb 2007 03:40:09 +0000</pubDate>
+            <pubDate>Wed, 14 Feb 2007 03:40:09 +0000</pubDate>
 
-		<dc:creator>Paul McLanahan</dc:creator>
+            <dc:creator>Paul McLanahan</dc:creator>
 
-		
 
-	<category>Uncategorized</category>
+            <category>Uncategorized</category>
 
-		<guid isPermaLink="false">http://jquery.com/blog/2007/02/13/jquery-nightly-builds/</guid>
+            <guid isPermaLink="false">http://jquery.com/blog/2007/02/13/jquery-nightly-builds/</guid>
 
-		<description><![CDATA[After much wailing and gnashing of teeth by certain members of the discussion
+            <description><![CDATA[After much wailing and gnashing of teeth by certain members of the discussion
 
  mailing list (read: me), we now have automated nightly builds of jQuery ready for mass consumption.
 
@@ -912,7 +898,7 @@ Even though it&#8217;s never really been publicly announced, the channel current
 
  most recent features of jQuery on our projects, [...]]]></description>
 
-			<content:encoded><![CDATA[<p>After much wailing and gnashing of teeth by certain members of the <a
+            <content:encoded><![CDATA[<p>After much wailing and gnashing of teeth by certain members of the <a
 
  href="http://jquery.com/discuss/">discussion mailing list</a> (read: me), we now have automated nightly
 
@@ -982,31 +968,31 @@ Even though it&#8217;s never really been publicly announced, the channel current
 
 ]]></content:encoded>
 
-			<wfw:commentRSS>http://jquery.com/blog/2007/02/13/jquery-nightly-builds/feed/</wfw:commentRSS>
+            <wfw:commentRSS>http://jquery.com/blog/2007/02/13/jquery-nightly-builds/feed/</wfw:commentRSS>
 
-		</item>
+        </item>
 
-		<item>
+        <item>
 
-		<title>New jQuery Project Team Members</title>
+            <title>New jQuery Project Team Members</title>
 
-		<link>http://jquery.com/blog/2007/02/02/new-jquery-project-team-members/</link>
+            <link>http://jquery.com/blog/2007/02/02/new-jquery-project-team-members/</link>
 
-		<comments>http://jquery.com/blog/2007/02/02/new-jquery-project-team-members/#comments</comments>
+            <comments>http://jquery.com/blog/2007/02/02/new-jquery-project-team-members/#comments</comments>
 
-		<pubDate>Fri, 02 Feb 2007 21:27:43 +0000</pubDate>
+            <pubDate>Fri, 02 Feb 2007 21:27:43 +0000</pubDate>
 
-		<dc:creator>ReyBango</dc:creator>
+            <dc:creator>ReyBango</dc:creator>
 
-		
 
-	<category>Uncategorized</category>
+            <category>Uncategorized</category>
 
-		<guid isPermaLink="false">http://jquery.com/blog/2007/02/02/new-jquery-project-team-members/</guid
+            <guid isPermaLink="false">http://jquery.com/blog/2007/02/02/new-jquery-project-team-members/
+            </guid
 
->
+            >
 
-		<description><![CDATA[The jQuery team would like to welcome our newest team members, Yehuda  Katz,
+            <description><![CDATA[The jQuery team would like to welcome our newest team members, Yehuda  Katz,
 
  Nate Cavanaugh, &#038; Klaus Hartl. These three developers have made invaluable contributions to the
 
@@ -1014,9 +1000,9 @@ Even though it&#8217;s never really been publicly announced, the channel current
 
 Yehuda is a developer living in New York City who maintains the web site  Visual [...]]]></description
 
->
+            >
 
-			<content:encoded><![CDATA[<p>The <a href="http://docs.jquery.com/About/Contributors">jQuery team<
+            <content:encoded><![CDATA[<p>The <a href="http://docs.jquery.com/About/Contributors">jQuery team<
 
 /a> would like to welcome our newest team members, <strong><a href="http://yehudakatz.com/">Yehuda  Katz
 
@@ -1066,31 +1052,31 @@ Yehuda is a developer living in New York City who maintains the web site  Visual
 
 ]]></content:encoded>
 
-			<wfw:commentRSS>http://jquery.com/blog/2007/02/02/new-jquery-project-team-members/feed/</wfw:commentRSS
+            <wfw:commentRSS>http://jquery.com/blog/2007/02/02/new-jquery-project-team-members/feed/
+            </wfw:commentRSS
 
->
+            >
 
-		</item>
+        </item>
 
-		<item>
+        <item>
 
-		<title>New jQuery API Browser</title>
+            <title>New jQuery API Browser</title>
 
-		<link>http://jquery.com/blog/2007/01/29/new-jquery-api-browser/</link>
+            <link>http://jquery.com/blog/2007/01/29/new-jquery-api-browser/</link>
 
-		<comments>http://jquery.com/blog/2007/01/29/new-jquery-api-browser/#comments</comments>
+            <comments>http://jquery.com/blog/2007/01/29/new-jquery-api-browser/#comments</comments>
 
-		<pubDate>Mon, 29 Jan 2007 15:44:19 +0000</pubDate>
+            <pubDate>Mon, 29 Jan 2007 15:44:19 +0000</pubDate>
 
-		<dc:creator>ReyBango</dc:creator>
+            <dc:creator>ReyBango</dc:creator>
 
-		
 
-	<category>Uncategorized</category>
+            <category>Uncategorized</category>
 
-		<guid isPermaLink="false">http://jquery.com/blog/2007/01/29/new-jquery-api-browser/</guid>
+            <guid isPermaLink="false">http://jquery.com/blog/2007/01/29/new-jquery-api-browser/</guid>
 
-		<description><![CDATA[
+            <description><![CDATA[
 
 The jQuery team continues to pump out additional tools and resources to make development using jQuery
 
@@ -1104,7 +1090,7 @@ The jQuery API browser provides an intuitive interface to quickly find informati
 
  methods and [...]]]></description>
 
-			<content:encoded><![CDATA[<p><iframe src='http://digg.com/api/diggthis.php?u=http://digg.com/programming
+            <content:encoded><![CDATA[<p><iframe src='http://digg.com/api/diggthis.php?u=http://digg.com/programming
 
 /New_jQuery_JS_Ajax_Library_API_Browser' height='82' width='55' frameborder='0' scrolling='no' style
 
@@ -1216,12 +1202,14 @@ The jQuery API browser provides an intuitive interface to quickly find informati
 
 ]]></content:encoded>
 
-			<wfw:commentRSS>http://jquery.com/blog/2007/01/29/new-jquery-api-browser/feed/</wfw:commentRSS>
+            <wfw:commentRSS>http://jquery.com/blog/2007/01/29/new-jquery-api-browser/feed/</wfw:commentRSS>
 
-		</item>
+        </item>
 
-	<feedburner:awareness xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">http://api.feedburner
+        <feedburner:awareness xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">http://api.feedburner
 
-.com/awareness/1.0/GetFeedData?uri=jquery</feedburner:awareness></channel>
+            .com/awareness/1.0/GetFeedData?uri=jquery
+        </feedburner:awareness>
+    </channel>
 
 </rss>

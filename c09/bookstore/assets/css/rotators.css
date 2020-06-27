@@ -92,6 +92,7 @@ img.enlarged-control {
 .enlarged-price {
   background-color: #373c40;
   color: #fff;
+  display: block;
   width: 80px;
   padding: 5px;
   font-size: 18px;
