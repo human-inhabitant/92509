@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="plugins.css">
+    <link rel="stylesheet" href="dimensions.css">
+    <title>Dimensions</title>
+  </head>
+  <body class="dimensions">
+    <div class="container">
+      <h2>Dimensions Plug&mdash;in</h2>
+      <div class="dim-outer">
+        <p>This is the outer dimensions box. It has the following CSS rule:</p>
+        <pre><code>.dim-outer {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  padding: 1em;
+  border: 5px solid #e3e3e3;
+  overflow: auto;
+  font-size: 12px;
+}</code></pre>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <div class="dim-inner">This is the inner dimensions box.</div>
+      </div>
+
+      <div class="category">
+        <h2>Window &amp; Document Dimensions</h2>
+        <div id="example-dimensions-win-height-width" class="example">
+          <h3>$(window).height(), $('element').width()</h3>
+          <div class="content">
+            <div class="trigger button">Trigger</div>
+            <div class="log"></div>
+          </div>
+        </div>
+        <div id="example-dimensions-doc-height-width" class="example">
+          <h3>$(document).height(), $(document).width()</h3>
+          <div class="content">
+            <div class="trigger button">Trigger</div>
+            <div class="log"></div>
+          </div>
+        </div>
+      </div> <!-- end category -->
+
+      <div class="category">
+        <h2>Element Dimensions</h2>
+        <div id="example-dimensions-height-width" class="example">
+          <h3>$('element').height(), $('element').width()</h3>
+          <div class="content">
+            <div class="trigger button">Trigger</div>
+            <div class="log"></div>
+          </div>
+        </div>
+        <div id="example-dimensions-inner-height-width" class="example">
+          <h3>$('element').innerHeight(), $('element').innerWidth()</h3>
+          <div class="content">
+            <div class="trigger button">Trigger</div>
+            <div class="log"></div>
+          </div>
+        </div>
+        <div id="example-dimensions-outer-height-width" class="example">
+          <h3>$('element').outerHeight(), $('element').outerWidth()</h3>
+          <div class="content">
+            <div class="trigger button">Trigger</div>
+            <div class="log"></div>
+          </div>
+        </div>
+      </div> <!-- end category -->
+
+      <div class="category">
+        <h2>scrollTop and scrollLeft</h2>
+        <div id="example-dimensions-scroll" class="example">
+          <h3>$('div.dim-outer').scrollTop(), $('div.dim-outer').scrollLeft()</h3>
+          <div class="content">
+            <div class="trigger button">Trigger</div>
+            <div class="log"></div>
+          </div>
+        </div>
+        <div id="example-dimensions-doc-scroll" class="example">
+          <h3>$(document).scrollTop(), $(document).scrollLeft()</h3>
+          <div class="content">
+            <div class="trigger button">Trigger</div>
+            <div class="log"></div>
+          </div>
+        </div>
+      </div> <!-- end category -->
+
+      <div class="category">
+        <h2>Offset</h2>
+        <div id="example-dimensions-offset" class="example">
+          <h3>$('div.dim-outer').offset()</h3>
+          <div class="content">
+            <div class="trigger button">Trigger</div>
+            <div class="log"></div>
+          </div>
+        </div>
+        <div id="example-dimensions-offset-inner" class="example">
+          <h3>$('div.dim-inner').offset()</h3>
+          <div class="content">
+            <div class="trigger button">Trigger</div>
+            <div class="log"></div>
+          </div>
+        </div>
+      </div> <!-- end category -->
+    </div>
+
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/plugins/dimensions/dimensions.js"></script>
+    <script src="examples.js"></script>
+    <script src="dimensions.js"></script>
+  </body>
+</html>

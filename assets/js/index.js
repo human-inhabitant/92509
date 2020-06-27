@@ -10,6 +10,9 @@
     $( o ).width( max( a ) * charWidth );
   });
 
+  const $lastHr = $( 'hr:last-child' );
+  $lastHr.css({ marginBottom: '100px' });
+
   function max( input ) {
     if ( toString.call( input ) !== '[object Array]' ) {
       return false;
